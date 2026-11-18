@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.rephraseai/rephraseai-mcp",
+  "title": "Rephrase AI",
+  "description": "Rewrite text in the tone you want, with the meaning kept, using your Rephrase AI account.",
+  "version": "0.1.0",
+  "websiteUrl": "https://www.rephraseai.com/",
+  "repository": {
+    "url": "https://github.com/rephraseai/rephraseai-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://www.rephraseai.com/icon0.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    },
+    {
+      "src": "https://www.rephraseai.com/apple-icon.png",
+      "mimeType": "image/png",
+      "sizes": ["180x180"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.rephraseai.com/mcp"
+    }
+  ]
+}
